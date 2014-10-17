@@ -26,6 +26,8 @@
 		30C26E8119E08F350011AD09 /* YouLose.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C26E7C19E08F350011AD09 /* YouLose.png */; };
 		30C26E8219E08F350011AD09 /* YouWin.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C26E7D19E08F350011AD09 /* YouWin.png */; };
 		30C26E8419E71AF40011AD09 /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C26E8319E71AF40011AD09 /* MyUtils.swift */; };
+		30D1828D19F092B600BF1597 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D1828C19F092B600BF1597 /* GameOverScene.swift */; };
+		30D1828F19F098E600BF1597 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D1828E19F098E600BF1597 /* MainMenuScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		30C26E7C19E08F350011AD09 /* YouLose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouLose.png; sourceTree = "<group>"; };
 		30C26E7D19E08F350011AD09 /* YouWin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouWin.png; sourceTree = "<group>"; };
 		30C26E8319E71AF40011AD09 /* MyUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUtils.swift; sourceTree = "<group>"; };
+		30D1828C19F092B600BF1597 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOverScene.swift; path = ../GameOverScene.swift; sourceTree = "<group>"; };
+		30D1828E19F098E600BF1597 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +121,10 @@
 		30C26E4419E08B730011AD09 /* ZombieConga */ = {
 			isa = PBXGroup;
 			children = (
+				30D1828C19F092B600BF1597 /* GameOverScene.swift */,
 				30C26E4719E08B730011AD09 /* AppDelegate.swift */,
 				30C26E4B19E08B730011AD09 /* GameScene.swift */,
+				30D1828E19F098E600BF1597 /* MainMenuScene.swift */,
 				30C26E7819E08F350011AD09 /* Images */,
 				30C26E4D19E08B730011AD09 /* GameViewController.swift */,
 				30C26E4F19E08B730011AD09 /* Main.storyboard */,
@@ -280,6 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D1828F19F098E600BF1597 /* MainMenuScene.swift in Sources */,
+				30D1828D19F092B600BF1597 /* GameOverScene.swift in Sources */,
 				30C26E4C19E08B730011AD09 /* GameScene.swift in Sources */,
 				30C26E4E19E08B730011AD09 /* GameViewController.swift in Sources */,
 				30C26E4819E08B730011AD09 /* AppDelegate.swift in Sources */,
